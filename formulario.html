@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="estilo-form.css" />
+    <link rel="import" href="descarga.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet" />
+    <title>Project Formulary</title>
+  </head>
+  <body>
+    <h1 id="title">Formualary</h1>
+    <p id="description">This formulary is only for gamers</p>
+    <section>
+      <form id="survey-form" action="#">
+        <div class="register">
+          <label id="name-label" for="nombre">Name:</label>
+          <input class="userdata" type="text" id="name" name="name" placeholder="Enter name:" required />
+          <label id="email-label" for="email">Email:</label>
+          <input class="userdata" type="email" id="email" name="email" placeholder="Enter e-mail:" required />
+          <label id="number-label" for="age"> Age:</label>
+          <input class="userdata" type="number" id="number" name="age" min="10" max="100" placeholder="Enter age:" required />
+        </div>
+        <div class="dropdown-game">
+          <label for="select-game"><h4>Select which is the best shooter according to you:</h4></label>
+          <select name="list" id="dropdown" size="1" required>
+            <option selected disabled value="">What is the better shooter?</option>
+            <option value="1">Fortnite</option>
+            <option value="2">CSGO</option>
+            <option value="3">Warzone</option>
+            <option value="4">Apex Legends</option>
+            <option value="5">PUBG</option>
+          </select>
+        </div>
+        <div class="form-radio">
+          <h4>How many time you spend play video games per day?</h4>
+          <label for="choice-1">
+            <input class="time-game" type="radio" name="time-game" id="choice-1" value="1and2hours" required />
+            Between 1 and 2 hours per day</label
+          ><br />
+          <label for="choice-2">
+            <input class="time-game" type="radio" name="time-game" id="choice-2" value="3and4hours" />
+            Between 3 and 4 hours per day</label
+          ><br />
+          <label for="choice-3">
+            <input class="time-game" type="radio" name="time-game" id="choice-3" value="5and6hours" />
+            Between 5 and 6 hours per day</label
+          ><br />
+          <label for="choice-4">
+            <input class="time-game" type="radio" name="time-game" id="choice-4" value="morehours" />
+            More of 6 hours per day</label
+          ><br />
+        </div>
+        <div class="checkboxes required">
+          <h4>What console you use to play video games?</h4>
+          <label for="checkbox1">
+            <input type="checkbox" name="checkbox" id="checkbox1" value="Playstation4" /> Playstation 4</label
+          >
+          <label for="checkbox2"> <input type="checkbox" name="checkbox" id="checkbox2" value="Xbox360" /> Xbox 360</label>
+          <label for="checkbox3">
+            <input type="checkbox" name="checkbox" id="checkbox3" value="NintendoSwitch" /> Nintendo Switch</label
+          >
+        </div>
+        <br />
+        <div class="comments-area">
+          <h4>Additional comments:</h4>
+          <textarea name="textarea" id="comments" cols="30" rows="8" placeholder="Write here:"></textarea>
+          <br />
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

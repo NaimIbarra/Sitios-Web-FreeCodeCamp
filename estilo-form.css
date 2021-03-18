@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-image: url("https://media.gq.com.mx/photos/5f2c52e9356b187cffb84146/16:9/w_1920%2cc_limit/juegos-shooter-celular.jpg");
+  background-size: 1850px;
+}
+#title {
+  color: black;
+  font-size: 50px;
+  text-align: left;
+  text-align: center;
+  margin-top: 20px;
+}
+#description {
+  text-align: center;
+  margin-top: 20px;
+  font-style: oblique;
+}
+#survey-form .register label {
+  color: red;
+}
+#survey-form {
+  width: 600px;
+  background: darkblue;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.userdata {
+  padding: 8px;
+  margin-top: 10px;
+  width: 520px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+  border: none;
+}
+.dropdown-game label {
+  color: white;
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#dropdown {
+  width: 500px;
+  margin-top: 30px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+}
+.form-radio h4 {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.form-radio {
+  margin-top: 40px;
+  color: white;
+  display: block;
+}
+.form-radio label {
+  margin-bottom: 800px;
+  display: block;
+  margin-bottom: 2px;
+}
+.checkboxes h4 {
+  padding-bottom: 20px;
+  color: white;
+}
+.checkboxes label {
+  display: inline-block;
+  color: white;
+  padding-right: 20px;
+}
+.comments-area h4 {
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.comments-area textarea {
+  font-size: 18px;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+#submit {
+  padding: 8px;
+  width: 250px;
+  background: darkturquoise;
+  margin-left: 140px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+#submit:hover {
+  visibility: visible;
+  color: white;
+  transition: 0.5s;
+}
